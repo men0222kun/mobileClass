@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:myfirstapp/work1_ProfileScr.dart';
+import 'package:myfirstapp/Test1_basic.dart';
 void main() {
   runApp(MyApp());
 }
@@ -12,14 +13,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Profile(),
+      home: Myhomepage(),
       theme: ThemeData(primarySwatch: Colors.blueGrey),
       debugShowCheckedModeBanner: false,
       
     );
   }
 }
-
+/*
 class Myhomepage extends StatefulWidget {
   // ignore: prefer_const_constructors_in_immutables
   Myhomepage({Key? key}) : super(key: key);
@@ -52,3 +53,4 @@ class _MyhomepageState extends State<Myhomepage> {
 
 
 }
+*/
