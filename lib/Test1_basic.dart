@@ -44,7 +44,7 @@ class _MyhomepageState extends State<Myhomepage> {
             Text("กดปุ่มเพื่อเพิ่มตัวเลข"),
             Text(
               "$number",
-              style: TextStyle(fontSize: 60),
+              style: TextStyle(fontSize: 60,  fontWeight: FontWeight.bold),
             )
           ],
         ),
@@ -60,5 +60,17 @@ class _MyhomepageState extends State<Myhomepage> {
     setState(() {
       number++;
     });
+  }
+  void delnumber(){
+    Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Text("กดปุ่มเพื่อลบตัวเลข"),
+        Text(
+          "$number",
+          style: TextStyle(fontSize: 60),
+        )
+      ],
+    );
   }
 }

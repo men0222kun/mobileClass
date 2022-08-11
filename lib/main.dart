@@ -1,8 +1,18 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
-import 'package:myfirstapp/work1_ProfileScr.dart';
-import 'package:myfirstapp/Test1_basic.dart';
+//import 'package:myfirstapp/Counter.dart';
+import 'package:myfirstapp/Design_layout.dart';
+import 'package:myfirstapp/Workshop_Airbnb.dart';
+
+import 'Workshop_design.dart';
+// import 'package:myfirstapp/Workshop_staful.dart';
+// import 'package:myfirstapp/work1_ProfileScr.dart';
+// import 'package:myfirstapp/Test1_basic.dart';
+
+// import 'Layout_2.dart';
+
+
 void main() {
   runApp(MyApp());
 }
@@ -13,9 +23,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Myhomepage(),
-      theme: ThemeData(primarySwatch: Colors.blueGrey),
-      debugShowCheckedModeBanner: false,
+      home: Designlay(),
+      //theme: ThemeData(primarySwatch: Colors.blueGrey),
+      //debugShowCheckedModeBanner: false,
       
     );
   }
