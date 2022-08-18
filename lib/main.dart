@@ -23,9 +23,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Designlay(),
+      home: Airbnb(),
       //theme: ThemeData(primarySwatch: Colors.blueGrey),
-      //debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,
       
     );
   }
